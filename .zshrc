@@ -7,7 +7,7 @@ zstyle ':vcs_info:git:*' formats '(%b) '
 
 # set up the prompt (with git branch name)
 setopt PROMPT_SUBST
-prompt='%F{155}%n@local%f:%F{159}%1~/%f %F{141}${vcs_info_msg_0_}%f%F{209}%#%f '
+prompt='%F{159}%~%f %F{141}${vcs_info_msg_0_}%f%F{209}%#%f '
 
 # history (no duplicates on up-arrow)
 HISTSIZE=5000
